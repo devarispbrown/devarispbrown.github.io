@@ -1,0 +1,13 @@
+# Site settings
+title: Professional Site of DeVaris Brown
+email: devaris@devaris.com
+description: This is the professional site of DeVaris Brown.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://devaris.com" # the base hostname & protocol for your site
+twitter_username: devarispbrown
+github_username: devarispbrown
+
+# Build settings
+markdown: kramdown
+paginate: 20
+paginate_path: "/archives/page/:num"

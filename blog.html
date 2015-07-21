@@ -1,0 +1,27 @@
+---
+layout: default
+title: DeVaris Brown's Blog
+permalink: /blog/
+---
+
+<div class="home">
+  <div class="blog-container">
+    <div class="blog-content">
+      <ul class="post-list">
+      {% for post in site.posts %}
+        <h2>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+        <p>
+          {{ post.content }}
+        </p>
+      {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
+    </div>
+  </div>
+</div>

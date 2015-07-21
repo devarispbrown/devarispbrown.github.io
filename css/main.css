@@ -1,0 +1,142 @@
+html, body {
+  background-color: #292929;
+}
+
+body {
+  color: #fff;
+  height: 100%;
+  font-family: 'Vollkorn', serif !important;;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Unica One', sans-serif !important;;
+  text-transform: uppercase;
+  color: #cc3311;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: 'Unica One', sans-serif !important;;
+  text-transform: uppercase;
+  color: #cc3311;
+}
+
+textarea {
+  padding: 5px;
+}
+
+.navbar{
+  margin-bottom: 0 !important;
+  border-radius: 0;
+  font-family: 'Unica One', sans-serif !important;;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+  letter-spacing: -1px;
+  color: #cc3311;
+  font-size: 18px;
+}
+
+.logo {
+  max-height: 30px;
+  margin-top: -5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #cc3311;
+}
+
+.container { 
+  height: 100%;
+  width: 100%;
+  padding: 0px !important;
+  background: #292929;
+
+}
+
+.intro {
+  font-family: 'Vollkorn', serif !important;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.home {
+  text-align: left;
+}
+
+.blog-container, .about-container {
+  background-color: #fff;
+  border-radius: 2px;
+  color: #292929;
+  margin: 40px;
+  padding: 20px 40px;
+}
+
+.post-meta {
+  font-size: 18px;
+  font-style: italic;
+}
+
+a.post-link:link, 
+a.post-link:visited{
+  font-family: 'Unica One', sans-serif !important;;
+  text-transform: uppercase;
+  color: #cc3311;
+  text-decoration: none;
+} 
+
+.portrait {
+  margin-bottom: 20px;
+}
+.contact-icon {
+  color: #c6c6c6;
+  margin-right: 10px;
+}
+
+
+.contact-text:link,
+.contact-text:visited {
+  color: #292929;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contact-text:hover {
+  text-decoration: none;
+  color: #cc3311;
+  transition: color 0.3s ease;
+}
+
+.control-label {
+  color: #292929;
+  font-weight: 700;
+}
+
+label.error {
+  margin-left: 5px;
+  color: #cc3311;
+}
+
+.form-actions {
+  margin-top: 10px;
+}
