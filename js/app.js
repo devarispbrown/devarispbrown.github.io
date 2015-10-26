@@ -19,7 +19,7 @@ $(document).ready(function () {
     submitHandler: function (form) {
       $.ajax({
         type: 'POST',
-        url: 'https://quiet-oasis-7893.herokuapp.com/notes',
+        url: 'http://quiet-oasis-7893.herokuapp.com/notes',
         accept: {
           javascript: 'application/javascript'
         },

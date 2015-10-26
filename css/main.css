@@ -64,7 +64,7 @@ textarea {
   color: #cc3311;
 }
 
-.container { 
+.container {
   height: 100%;
   width: 100%;
   padding: 0px !important;
@@ -77,7 +77,7 @@ textarea {
   line-height: 40px;
   font-size: 24px;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 60px;
 }
 
 .home {
@@ -88,8 +88,8 @@ textarea {
   background-color: #fff;
   border-radius: 2px;
   color: #292929;
-  margin: 40px;
-  padding: 20px 40px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .post-meta {
@@ -97,13 +97,13 @@ textarea {
   font-style: italic;
 }
 
-a.post-link:link, 
+a.post-link:link,
 a.post-link:visited{
   font-family: 'Unica One', sans-serif !important;;
   text-transform: uppercase;
   color: #cc3311;
   text-decoration: none;
-} 
+}
 
 .portrait {
   margin-bottom: 20px;
@@ -139,4 +139,10 @@ label.error {
 
 .form-actions {
   margin-top: 10px;
+}
+
+@media (min-width: @screen-lg-min) {
+  .intro {
+    padding-top: 200px;
+  }
 }

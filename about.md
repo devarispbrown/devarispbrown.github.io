@@ -35,21 +35,21 @@ permalink: /about/
         </p>
         <section id="send-email">
           <h3>Email DeVaris</h3>
-          <form class="form-horizontal" id="contact" method="post" action="https://quiet-oasis-7893.herokuapp.com/notes" accept-charset="UTF-8">
+          <form class="form-horizontal" id="contact" accept-charset="UTF-8">
             <div class="form-control-group">
               <label class="control-label" for="name">Full Name</label>
               <div class="controls">
                 <input type="text" class="input-xlarge" name="name" id="name">
               </div>
             </div>
-          
+
             <div class="form-control-group">
               <label class="control-label" for="name">Email Address</label>
               <div class="controls">
                 <input type="email" class="input-xlarge" name="email" id="email">
               </div>
             </div>
-          
+
             <div class="form-control-group">
               <label class="control-label" for="email">Message</label>
               <div class="controls">
